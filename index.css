@@ -1,0 +1,308 @@
+html, body {
+	background-image: url('https://cdn.pixabay.com/photo/2018/08/06/17/07/ship-3587946_960_720.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+header {
+	text-align: center;
+}
+
+h2 {
+	line-height: 1.1em;
+	margin-bottom: -10px;
+	margin-top: 10px;
+	border-bottom: 1px solid black;
+} 
+
+h3 {
+	line-height: 1.1em;
+	font-size: 3em;
+	 color: #000E12;
+    font-weight: bold;
+	text-shadow: 2px 2px white;
+    text-align: center;
+}
+
+input {
+	width: 200px;
+	height: 30px;
+	background-color: rgba(253, 252, 255,0.8);
+	border: 1px solid black;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	border-bottom: 1px solid #000E12;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	box-shadow: 5px 10px 18px #1A1F21;
+}
+
+i {
+	margin-right: 20px;
+}
+
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+button:hover, a:hover {
+    opacity: 0.7;
+}
+
+.container {
+	display: inline-flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 5%;
+	border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    background-color: rgba(253, 252, 255,0.3);
+    box-shadow: 5px 10px 18px #1A1F21;
+}
+
+.form-container {
+	display: inline-flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 5%;
+	border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    background-color: rgba(253, 252, 255,0.3);
+    box-shadow: 5px 10px 18px #1A1F21;
+}
+
+.video-text, .form-text {
+	line-height: 1.1em;
+	font-size: 1.5em;
+	color: #000E12;
+    font-weight: bold;
+	text-shadow: 2px 2px white;
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+    padding-bottom: 25px;
+}
+
+.footer {
+	overflow: hidden;
+	border:2px solid #003E4F;;
+	bottom: 0;
+    width: 100%;
+    background-color: rgba(253, 252, 255,0.5);
+    overflow: hidden;
+    margin-top: 10%;
+    margin-left: 0%;
+}
+
+.card {
+	width: 30%;
+	box-shadow: 5px 10px 18px #1A1F21;
+    background-color: rgba(253, 252, 255,0.3);
+    border-radius: 5px;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.card-head {
+	font-family: 'Diplomata', cursive;
+	text-align: center;
+    color: #000E12;
+	text-shadow: 2px 2px white;
+}
+
+.title {
+	font-family: 'Diplomata', cursive;
+	text-align: center;
+    color: #000E12;
+	text-shadow: 2px 2px white;
+    font-size: 18px;
+}
+
+.submit-button {
+	width: 150px;
+	height: 45px;
+	border-radius: 5px;
+	font-size: 1.5em;
+	background-color: rgba(253, 252, 255,0.8);
+	margin-right: -20%;
+	margin-top: 5px;
+	box-shadow: 5px 10px 18px #1A1F21;
+}
+
+.grow { 
+	transition: all .2s ease-in-out; 
+}
+
+.grow:hover {
+	transform: scale(1.1); 
+}
+
+#list {
+	font-family: 'Diplomata', cursive;
+	font-size: 1.7em;
+	font-weight: bold;
+	line-height: 1.8em;
+	color: #000E12;
+	text-shadow: 2px 2px white;
+}
+
+#video  {
+	display:relative;
+	margin-top: 2%;
+	margin-right: 10px;
+	border: 2px solid #003E4F;
+	border-radius: 5px;
+	box-shadow: 5px 10px 18px #1A1F21;
+}
+
+#form { 
+	display:block;
+	text-align: center;
+	margin-top: 2%;
+	margin-right: 10px;
+	width: 550px;
+	height: 315px;
+}
+
+#title {
+	font-family: 'Diplomata', cursive;
+	text-align: center;
+	font-size: 3.5em;
+	color: #000E12;
+	text-shadow: 2px 2px white;
+	margin-top: 6%;
+}
+ 
+#nav-bar {
+	overflow: hidden;
+	position: fixed;
+	top: 0; 
+    width: 100%;
+    background-color: rgba(253, 252, 255,0.3);
+    overflow: hidden;
+    font-size: 1.5em;
+    border-bottom: 2px solid #003E4F;
+    margin-left: 0%;
+}
+   
+#nav-bar img {
+	float: right;
+	width: 65px;
+	height: auto;
+	padding-right: 15px; 
+}
+
+#nav-bar a {
+    float: left;
+    color: #000E12;
+    font-weight: bold;
+	text-shadow: 2px 2px white;
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+
+#nav-bar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+#nav-bar a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#card-div {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#card-div img {
+	border-radius: 5px;
+	border-bottom: 2px solid black;
+}
+
+#form-img{
+	width: 150px;
+	margin-top: -5%;
+}
+
+#name, #email  {
+	font-size: 1.5em;
+	font-weight: 525;
+	color: black;
+}
+
+#date {
+	font-size: 1.8em;
+	color: black;
+}
+
+
+@media screen and (max-width: 900px) {
+
+	body {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+
+	}
+	 #nav-bar {
+	 	width: 100%;
+	 }
+
+
+	.container {
+		flex-direction: column;
+	}
+	
+	#video-text, #video {  
+		width: 100%;
+		margin:auto;
+	}
+	 #card-div{
+	 	flex-direction: column;
+	 }
+	  .card {  
+		width: 100%;
+		margin:auto;
+	}
+	.form-container {
+		flex-direction: column;
+	}
+	.form-text {
+		width: 100%;
+		margin:auto;
+	}
+	#date{
+		display:block;
+		width: 100%;
+		margin: auto;
+	}
+
+	#form {
+		width: 100%;
+		margin:auto;
+	}
+	.submit-button {
+		width: 100%;
+		magin: auto; 
+	}
+}
